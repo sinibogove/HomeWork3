@@ -45,6 +45,16 @@ public class HomeWork3 {
             double rectanglePerimeter = ((2*height)+(2*length));
             System.out.println("The area of the rectangle is " + rectangleArea);
             System.out.println("The perimeter of the rectangle is " + rectanglePerimeter);
+
+            // Напишете програма, която чете цифра (или се приема като параметър на метод)
+            // изписва в конзолата дали числото е положително или отрицателно
+
+            System.out.println("Please enter a number");
+            int number = (scanner.nextInt());
+            if (number > 0) {
+                System.out.println("The number is positive");
+            } else if (number < 0);
+            System.out.println("The number is negative");
         }
     }
 
