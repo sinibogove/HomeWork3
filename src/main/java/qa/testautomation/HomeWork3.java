@@ -69,6 +69,7 @@ public class HomeWork3 {
         int thirdNum = (scanner.nextInt());
 
         int largest = firstNum;
+
         if (secondNum>largest) largest = secondNum;
         if (thirdNum>largest) largest = thirdNum;
         System.out.println("The largest number is "+ largest);
