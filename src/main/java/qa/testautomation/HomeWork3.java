@@ -8,30 +8,33 @@ public class HomeWork3 {
         System.out.println("Please enter the number of a weekday");
         int dayOfTheWeek = scanner.nextInt();
 
+            //Напишете програма, която чете цифра от 1 до 7 в конзолата (или се приема като
+            // параметър на метод) и на базата на това изписва в конзолата деня от седмицата във
+            //формат: You entered 1. So week day is Monday.
             switch (dayOfTheWeek) {
                 case 1:
-                    System.out.println("So week day is Monday");
+                    System.out.println("You entered 1, so the week day is Monday");
                     break;
                 case 2:
-                    System.out.println("So week day is Tuesday");
+                    System.out.println("You entered 2, so the week day is Tuesday");
                     break;
                 case 3:
-                    System.out.println("So week day is Wednesday");
+                    System.out.println("You entered 3, so the week day is Wednesday");
                     break;
                 case 4:
-                    System.out.println("So week day is Thursday");
+                    System.out.println("You entered 4, so the week day is Thursday");
                     break;
                 case 5:
-                    System.out.println("So week day is Friday");
+                    System.out.println("You entered 5, so the week day is Friday");
                     break;
                 case 6:
-                    System.out.println("So week day is Saturday");
+                    System.out.println("You entered 6, so the week day is Saturday");
                     break;
                 case 7:
-                    System.out.println("So week day is Sunday");
+                    System.out.println("You entered 7, so the week day is Sunday");
                     break;
                 default:
-                    System.out.println("Incorrect number");
+                    System.out.println("Yoy entered incorrect number");
             }
         }
     }
