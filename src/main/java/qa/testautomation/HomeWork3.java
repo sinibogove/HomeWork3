@@ -35,7 +35,16 @@ public class HomeWork3 {
                     break;
                 default:
                     System.out.println("Yoy entered incorrect number");
+
             }
+        // Напишете програма, която за подадени дължина и височина на правоъгълник,
+            // изкарва на конзолата неговият периметър и лице.
+            double height = 10;
+            double length = 5.55;
+            double rectangleArea = (height*length);
+            double rectanglePerimeter = ((2*height)+(2*length));
+            System.out.println("The area of the rectangle is " + rectangleArea);
+            System.out.println("The perimeter of the rectangle is " + rectanglePerimeter);
         }
     }
 
